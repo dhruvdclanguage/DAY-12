@@ -8,10 +8,10 @@ int main () {
 	     printf("Enter psitive number :");
 	     scanf("%d",&n);
 	     
-	while (i>=1) {
+	while (i<=n) {
 		  
-		  printf("%d\n",i);
-		  i--;
+		  printf("%d\n",n);
+		  n--;
 }
        return 0;
        

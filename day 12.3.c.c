@@ -10,10 +10,14 @@ int main () {
 	     
 	while (a<=num) {
 		  
-		  printf("%d\n",num);
+		  printf("%d\n",a=a+num);
 		  a++;
 }
        return 0;
        
 }
+
+
+
+
 

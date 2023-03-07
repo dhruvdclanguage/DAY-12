@@ -3,20 +3,20 @@
 int main()
 {
 	
-	int number=1;
+	int a=1;
 	int n;
 	
-     	printf("Enter the value of N: ");
+     	printf("Enter the value of 1: ");
      	scanf("%d",&n);
 
 
 	    printf("Even Numbers from 1 to %d:\n",n);
  
-    while(number<=n)	{
+    while(a<=n)	{
 	
-		if(number%2==0)
-			printf("%d ",number);
-			number++;
+		if(n%2==0)
+	        printf("%d\n",n);
+		n--;
 	}
 
 	return 0;

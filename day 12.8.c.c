@@ -1,19 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
+int main (){
 	
-    int i, n, 
-	sum=0;
-
-  
-          printf("Enter upper limit: ");
-          scanf("%d",&n);
-
-    if(i=1, i<=n, i++); {
-      sum += i;
-    }
-
-    printf("Sum of first %d natural numbers = %d", n, sum);
-
-    return 0;
+	int n , i = 1 , sum = 0 ;
+	
+		printf("Enter a value to sum 1 to your valuve : ");
+		scanf("%d",&n);
+	
+	while(i<=n){
+		sum = sum + i;
+		i++;	
+	}
+	
+	printf("%d\n",sum);
+	
+	return 0;
 }
